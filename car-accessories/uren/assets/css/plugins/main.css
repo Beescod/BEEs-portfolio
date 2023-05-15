@@ -1,0 +1,21 @@
+
+/*header */
+.header {
+    background: white;
+    color: rgba(256, 256, 256, 0.85);
+    border-top: 5px solid blue;
+    padding: 30px 0;
+}
+
+/*.header {
+    background: $text-color;
+    color: rgba(256, 256, 256, 0.85);
+    border-top: 5px solid $color-primary;
+    padding: 30px 0;
+    a {
+        color: #fff;
+    }
+    .container {
+	    position: relative;
+    }
+}
