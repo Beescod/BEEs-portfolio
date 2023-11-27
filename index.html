@@ -291,7 +291,13 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
-                <input type="submit" value="Send Request">
+                <input type="submit" onclick="submitForm()" value="Send Request">
+                <script>
+                  function submitForm() {
+                      // Add your submission logic here
+                      alert("Order has been placed"); // Example: show an alert
+                  }
+                </script>
               </form>
             </div>
           </li>
